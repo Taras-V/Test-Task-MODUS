@@ -1,0 +1,530 @@
+
+/*  header */
+.header_page {
+   background-color: #76c7c0 !important; 
+   /* перебиваю властивості bootstrap */
+   margin: auto;
+   background: url(/image/BG_head.png);
+}
+.head {
+    display: flex;
+    max-width: 1170px;
+    height: 80px;
+    margin: auto;
+    justify-content: space-between;  
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-1{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.logo-2 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.bg-light {
+    background-color: transparent !important; 
+}
+.nav-item {
+    padding-left: 46px;
+}
+.nav-item a:hover {
+    color: #ffffff;
+    background-color:#64a29e;
+    
+}
+.nav-link {
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.collapse {
+    position: relative;
+    z-index: 1;
+}
+.dropdown-menu{
+    background-color: #e8645a
+
+}
+.arrow-item {
+    padding-right: 5px;
+}
+.dropdown-toggle:hover{
+    border-radius: 7px;
+    background-color: #e8645a !important;
+}
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 7px;
+    padding: 0 24px;
+    margin: 0 5px;
+    width: 190px;
+    height: 30px;
+    background-color: #e5645d;
+}
+
+/*  header */
+
+/* carousel */
+.d-block {
+    height: 500px;
+}
+.carousel-control-prev, .carousel-control-next{
+   width: 21px;
+}
+.carousel-control-next{
+    width: 81px;
+}
+.carousel-indicators{
+    margin-bottom: 0px;
+    top: 510px;
+}
+.carousel-indicators li {
+    background-color: #b0b8b9;
+    width: 60px;
+    height: 5px;
+}
+.carousel-indicators .active{
+    background-color: #e2534b;
+}
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    bottom: 30%;
+}
+.carousel-caption h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: 346px; 
+    height: 50px; 
+    background-color: #e2534b;
+}
+.carousel-caption p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 38px;
+    margin: auto;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    width: 470px;
+    height: 71px;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+/* carousel */
+
+/* services_page */
+.services {
+    background-color: #f3f3f3;
+    padding-bottom: 80px;
+}
+.services_page {
+   max-width: 1170px;
+   margin:auto ;
+   padding-top: 50px ;
+}
+.top_servise{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1170px;
+    border-radius: 10px;
+    height: 100px;
+    background-color: #ececec;
+    margin-bottom: 50px;
+    }
+.servise_title h3 {
+    color: #7f8c8c;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.service_subtitle p {
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.servise_view {
+    width: 200px;
+    height: 50px;
+    background-color: #e8645a;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 3px #e2534b;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    outline: none !important
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+}
+.service_element {
+    border-radius: 10px;
+    border-bottom: solid 5px#e5e6e6;
+    width: 270px;
+    height: 310px;
+    background-color: #f8f8f8;
+    text-align: center;
+    
+}
+.service_element:hover {
+    background-color: #ffffff;
+}
+.icon {
+    margin-top: 48px;
+}
+.mini_title {
+    margin-top: 17px;
+    color: #7f8c8c;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.2px;
+    text-transform: uppercase;
+    }
+.description {
+    margin-top: 36px;
+    padding: 0 17px 0 17px;
+    height: 80px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.read_more {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#62bdbd;
+    border: none;
+    border-bottom: solid 4px #62b9b0;
+    border-radius: 5px;
+    outline: none !important
+}
+.read_more:hover {
+    background-color:#e8645a;
+    border-bottom: solid 3px #e2534b;
+}
+/* services_page */
+
+/* WHY MODUS VERSUS */
+
+.line {
+    background-image: url(/image/line.png);
+    height: 19px;
+}
+.page_versus {
+    background-color:#ececec;
+    height: 420px;
+}
+.modus_versus {
+    max-width: 1170px;
+    margin: 65px auto 0 auto;
+    text-align: center;
+}
+.title_versus {
+    color: #e1524b;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.subtitle_versus {
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 65px;
+}
+ .informations {
+    max-width: 1170px; 
+    display: flex;
+    margin:  60px auto 0 auto;
+ }
+ .chose_title {
+    color: #7f8c8c;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 25px;
+ }
+ .chose_position li{
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .grafic {
+     width: 550px;
+     margin: auto;
+ }
+ .chose_descriptipn {
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.7px;
+    padding-bottom: 80px;
+}
+ .chose_descriptipn span {
+    color: #e1524b;
+    text-decoration: underline;
+}
+ .chose_title {
+     margin-top: 24px ;
+     display: flex;
+    justify-content: center;
+}
+ .chose_image {
+     width: 120px;
+ }
+ .text {
+    width: 235px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 24.7px;
+    cursor: auto;
+    font-style: oblique;
+    padding-left: 10px;
+    padding-bottom: 30px;
+ }
+ .clients_title {
+     margin: auto;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30.4px;
+    display: flex;
+    justify-content: center;
+}
+.elem {
+    display: flex;
+    justify-content: space-between;
+}
+.our_happy {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.prev_btn, .nextt_btn {
+    width: 40px;
+    height: 37px;
+    background-color:#98a3a3;
+    border: none;
+    border-radius: 3px;
+    border-bottom: solid 2px #7f8c8c;
+    outline: none !important;
+}
+.prev_btn:hover, .nextt_btn:hover{
+    background-color: #e2534b;
+    border-bottom: solid 2px #e2534b;
+}
+.blick_elements {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #76c7c0;
+    
+    
+}
+.information{
+    display: flex;
+    max-width: 1170px;
+    margin: 50px auto 0 auto;
+    justify-content: space-between;
+}
+.lines {
+    background-image: url(/image/line.png);
+    height: 19px;
+    opacity: 0.5; 
+}
+.info_text{
+    margin-top: 33px;
+    max-width: 360px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+.info_phone{
+    display: flex;
+    align-items: center;
+}
+.ifo_phone--name {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-style: oblique;
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+.ifo_phone--number {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.foter_title{
+    margin-bottom: 33px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 0.5; 
+}
+.company_item li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+.foter_title--blog {
+    display: flex;
+    margin-bottom: 24px;
+}
+.blog-1 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-style: oblique;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 8px;
+}
+
+.blog-2 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+}
+.img_description {
+    display: flex;
+    padding-bottom: 25px;
+}
+.image_blog img{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+.img_description_1 {
+    padding-bottom: 0px;
+}
+.lor {
+    width: 248px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-left: 18px;
+}
+.date {
+    opacity: 0.5;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-left: 18px;
+}
+.end {
+    background-color:#6ab3ad ;
+    height: 50px;
+}
+.end_content{
+
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1170px;
+}
+.year {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.social{
+    display: flex;
+    max-width: 155px;
+}
+.social_net a {
+    margin-left: 20px;  
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+@media (max-width: 1170px){
+    .for_img img {
+        max-width: 900px;
+    }
+    .information {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .collapse li{
+        padding-left: 0;
+    }
+    .head{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1090px){
+    .elements{   
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    .service_element { 
+        margin: 30px;   
+    }
+    .for_line img {
+        max-width: 600px;
+    }
+    .our_happy{
+        max-width: 800px;
+    }
+    .blick_elements {
+        flex-wrap: wrap;
+        display: flex; 
+        justify-content: space-around;
+    }
+    .element {
+        margin:30px
+    }
+    .informations {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .information, .end_content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contacts {
+        width: 40%;
+    }
+    .chose {
+        width: 30%;
+        margin: 30px;
+    }
+    .chose_position ul{
+        margin: auto;
+    }
+
+    @media (max-width: 910px){
+    .top_servise {
+        max-width: 650px;
+        margin: auto;
+    }
+    .for_img img {
+        max-width: 650px;
+        position: relative;
+        top: 65px;
+    }
+    .our_happy{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .our_happy img {
+        max-width: 350px;
+       
+    }
+    .carousel-item img{ 
+    height: 300px; 
+}
+    .slide ol{
+    width: 100px; 
+    margin: auto; 
+    top: 300px;  
+}
+    }
+@media (max-width: 660px){
+    .for_img img {
+        max-width: 450px;
+        position: relative;
+        top: 107px;
+    }
+
+    .servise_title h3 {
+        font-size: 20px;
+    }
+    .servise_view {
+        max-width: 120px;
+        font-size: 13px;
+        margin-left: 20px;
+       
+    }
+    .carousel-item img{ 
+        height: 300px; 
+    }
+    .slide ol{
+        width: 100px; 
+        margin: auto; 
+        top: 300px;  
+    }
+
+}
+@media (max-width: 540px){
+    .carousel-item img{ 
+        height: 250px; 
+    }
+    .slide ol{
+        width: 100px; 
+        margin: auto; 
+        top: 280px;  
+    }
+    .servise_title h3 {
+        font-size: 12px;
+    }
+    .servise_view {
+        max-width: 90px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .service_subtitle p {
+        font-size: 10px;
+    }
+    .title_versus h4 {
+        font-size: 30px;
+    }
+    .subtitle_versus p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .chose {
+        width: 80%;
+    }
+    .chose_position {
+        display: flex;
+    }
+    .chose_descriptipn p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .elem {
+        flex-wrap: wrap;
+       
+    }
+    .chose_image  {
+        width: 50%;
+        text-align: center;
+       
+    }
+    .our_happy img {
+        max-width: 100px;
+    }
+    .prev_btn, .nextt_btn {
+        width: 25px;
+        height: 24px;
+    }
+    .chose_title {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .text {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .contacts {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+   
+
+}
+ @media (max-width: 450px) {
+
+    .for_img img {
+        max-width: 350px;
+        position: relative;
+        top: 115px;
+}
+.subtitle_versus {
+   padding-bottom:30px;
+}
+.modus_versus {
+    margin: 95px auto 0 auto;
+}
+}
+
+@media (max-width: 365px){
+    .carousel-item img{ 
+        height: 200px; 
+    }
+    .slide ol{
+        width: 90px; 
+        margin: auto; 
+        top: 210px;  
+    }
+    .for_img img {
+        max-width: 300px;
+        position: relative;
+        top: 115px;
+}
+    .lor {
+        width: 200px;
+    }
+    .img_description {
+        margin: auto;
+        text-align: center;
+    }
+
